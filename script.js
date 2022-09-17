@@ -11,7 +11,7 @@ slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`
 
 upButton.addEventListener('click', () => changeSlide('up'))
 downButton.addEventListener('click', () => changeSlide('down'))
-
+// slider
 const changeSlide = (direction) => {
     const sliderHeight = sliderContainer.clientHeight
     if(direction === 'up') {
